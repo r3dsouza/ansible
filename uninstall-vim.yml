@@ -8,3 +8,5 @@
     apt:
       name: vim-nox
       state: absent
+    when: ansible_distribution in ["Debian", "Ubuntu"]
+#    when: ansible_distribution == "Ubuntu"

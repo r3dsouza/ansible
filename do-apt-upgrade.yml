@@ -7,7 +7,4 @@
   - name: Update apt repository index
     apt:
       update-cache: yes
-
-  - name: Dist upgrade 
-    apt:
       upgrade: dist

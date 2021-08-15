@@ -8,3 +8,6 @@
     apt:
       name: vim-nox
       state: latest
+    when: ansible_ditribution == "Ubuntu"
+#    when: ansible_distribution in ["Debian", "Ubuntu"]
+#    when: ansible_distribution == "Ubuntu" and ansible_distribution_version == "20.04"
