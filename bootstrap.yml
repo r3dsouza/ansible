@@ -19,7 +19,7 @@
   - name: add sudoers file for ansible
     tags: always
     copy:
-      src: files/sudoer_ansible
+      src: sudoer_ansible
       dest: /etc/sudoers.d/ansible
       owner: root
       group: root
